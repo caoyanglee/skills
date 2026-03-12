@@ -7,6 +7,40 @@ description: Send images and screenshots via Feishu (Lark) messaging platform. U
 
 Send images to Feishu (Lark) conversations. This skill works both inside OpenClaw and as a standalone CLI tool.
 
+## Important: File Path Restriction
+
+**When using OpenClaw's message tool to send images via Feishu, files MUST be placed in an allowed directory.**
+
+OpenClaw has security restrictions that only allow sending media files from specific directories:
+- `~/.openclaw/media/` (recommended)
+- `~/.openclaw/state/workspace/`
+
+### How to send images correctly:
+
+1. **Copy the image to the allowed directory first:**
+   ```bash
+   cp /path/to/your/image.png ~/.openclaw/media/
+   ```
+
+2. **Then send using OpenClaw message tool:**
+   ```bash
+   openclaw message send --target ou_xxxxx --channel feishu --message "Image" --media ~/.openclaw/media/image.png
+   ```
+
+### Quick workflow for screenshots:
+
+```bash
+# 1. Take screenshot to temp
+SCREENSHOT_PATH="$TMPDIR/screenshot_$(date +%s).png"
+screencapture -x "$SCREENSHOT_PATH"
+
+# 2. Copy to allowed directory
+cp "$SCREENSHOT_PATH" ~/.openclaw/media/screenshot.png
+
+# 3. Send via Feishu
+openclaw message send --target ou_xxxxx --channel feishu --message "截屏" --media ~/.openclaw/media/screenshot.png
+```
+
 ## When to use this skill
 
 - User asks to "截图发给我" (send me a screenshot)

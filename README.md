@@ -51,7 +51,31 @@ skills/
 
 ### 🦋 FlutterDev
 
-> 🚧 规划中，暂无内容。
+> **官方资源**: [flutter/skills](https://github.com/flutter/skills) - Flutter Agent Skills 官方仓库
+
+| 技能 | 描述 |
+|------|------|
+| [flutter-accessibility](FlutterDev/flutter-accessibility/) | 配置 Flutter 应用程序以支持辅助技术（如屏幕阅读器）|
+| [flutter-animation](FlutterDev/flutter-animation/) | 向 Flutter 应用添加动画效果 |
+| [flutter-app-size](FlutterDev/flutter-app-size/) | 测量和减小 Flutter 应用包、APK 或 IPA 的大小 |
+| [flutter-architecture](FlutterDev/flutter-architecture/) | 使用 Flutter 团队推荐的架构构建应用 |
+| [flutter-caching](FlutterDev/flutter-caching/) | 在 Flutter 应用中缓存数据 |
+| [flutter-concurrency](FlutterDev/flutter-concurrency/) | 在 Flutter 中在后台线程执行长时间运行的任务 |
+| [flutter-databases](FlutterDev/flutter-databases/) | 在 Flutter 应用中使用数据库 |
+| [flutter-environment-setup-linux](FlutterDev/flutter-environment-setup-linux/) | 配置 Linux 环境进行 Flutter 开发 |
+| [flutter-environment-setup-macos](FlutterDev/flutter-environment-setup-macos/) | 配置 macOS 环境进行 Flutter 开发 |
+| [flutter-environment-setup-windows](FlutterDev/flutter-environment-setup-windows/) | 配置 Windows 环境进行 Flutter 开发 |
+| [flutter-http-and-json](FlutterDev/flutter-http-and-json/) | 在 Flutter 应用中发起 HTTP 请求和编解码 JSON |
+| [flutter-layout](FlutterDev/flutter-layout/) | 使用 Flutter 的布局 widget 和约束系统构建应用布局 |
+| [flutter-localization](FlutterDev/flutter-localization/) | 配置 Flutter 应用以支持不同的语言和地区 |
+| [flutter-native-interop](FlutterDev/flutter-native-interop/) | 在 Flutter 应用中与 Android、iOS 和 Web 的原生 API 互操作 |
+| [flutter-performance](FlutterDev/flutter-performance/) | 优化 Flutter 应用的性能 |
+| [flutter-platform-views](FlutterDev/flutter-platform-views/) | 将原生视图添加到 Flutter 应用中 |
+| [flutter-plugins](FlutterDev/flutter-plugins/) | 构建 Flutter 插件，为其他 Flutter 应用提供原生互操作 |
+| [flutter-routing-and-navigation](FlutterDev/flutter-routing-and-navigation/) | 在 Flutter 应用中的不同页面/路由进行导航或深链接 |
+| [flutter-state-management](FlutterDev/flutter-state-management/) | 在 Flutter 应用中管理状态 |
+| [flutter-testing](FlutterDev/flutter-testing/) | 为 Flutter 添加单元测试、widget 测试或集成测试 |
+| [flutter-theming](FlutterDev/flutter-theming/) | 使用 Flutter 的主题系统自定义应用主题 |
 
 ---
 
