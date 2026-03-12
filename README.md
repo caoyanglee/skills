@@ -81,9 +81,18 @@ skills/
 
 ### 🔗 OpenClaw
 
-| 技能 | 描述 | 语言 |
+飞书（Lark）集成工具集，涵盖文档、文件、消息、权限等多个场景。
+
+| 技能 | 描述 | 类型 |
 |------|------|------|
-| [feishu-image](OpenClaw/feishu-image/) | 飞书图像发送工具：上传图片到飞书服务器并发送给用户或群组，支持 CLI、OpenClaw 集成、Node.js 模块三种用法 | JavaScript |
+| [feishu-chat-history](OpenClaw/feishu-chat-history/) | 获取并总结飞书群聊历史记录、消息回顾 | 消息 |
+| [feishu-cron-reminder](OpenClaw/feishu-cron-reminder/) | 创建定时任务，稳定投递周期性提醒到飞书会话 | 自动化 |
+| [feishu-doc](OpenClaw/feishu-doc-1.2.7/) | 飞书文档/表单/表格/Wiki 内容读写，自动解析 URL 并转换为 Markdown | 文档 |
+| [feishu-drive](OpenClaw/feishu-drive-1.0.0/) | 飞书云空间文件管理：上传/下载/移动/搜索文件、创建文件夹、管理元数据 | 文件 |
+| [feishu-image](OpenClaw/feishu-image/) | 飞书图像发送工具：上传图片到飞书服务器并发送给用户或群组 | 媒体 |
+| [feishu-perm](OpenClaw/feishu-perm/) | 飞书文件/文档权限管理：查看协作者、修改权限、共享设置 | 权限 |
+| [feishu-screenshot](OpenClaw/feishu-screenshot/) | macOS 截屏并直接发送到飞书对话 | 媒体 |
+| [feishu-send-file](OpenClaw/feishu-send-file/) | 将文件发送到飞书群聊或个人对话 | 文件 |
 
 ---
 
